@@ -1,0 +1,239 @@
+h1,
+h2,
+h5 {
+    padding: 0;
+    /* color: rgb(207, 166, 105); */
+    /* color: #f7d7c8; */
+    /* color: #d4af37; */
+    background: linear-gradient(to right top, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+    font-family: Merriweather, serif;
+    line-height: 1.1;
+}
+
+h2 {
+    word-wrap: break-word;
+    position: relative;
+    line-height: 1.1;
+    letter-spacing: 0.75rem;
+    font-family: Merriweather, serif;
+    font-size: 4.5rem;
+    margin: 110px auto 0;
+}
+
+h5 {
+    font-weight: 400;
+    width: 570px;
+    margin: 31px auto 0;
+    font-family: Ubuntu, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+h6 {
+    margin-left: 0;
+    margin-right: 329px px;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 0;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.8;
+    width: 739px;
+    margin: 20px auto 0;
+    color: #999999;
+    text-align: justify;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.u-sheet {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.u-align-center {
+    text-align: center;
+}
+
+.u-black,
+.u-body.u-black,
+.u-container-style.u-black:before,
+.u-table-alt-black tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.u-section-2 .u-sheet-1 {
+    min-height: 999px;
+}
+
+
+.u-sheet:not(.u-image):not(.u-video)>* {
+    pointer-events: auto;
+    pointer-events: initial;
+}
+
+.banner-image {
+    width: 386px;
+    height: 386px;
+    background-image: url('/hestia_logo/hestia_new_transparent.png');
+    background-position: 50% 50%;
+    background-size: contain;
+    margin: 31px auto 0;
+}
+
+.flexwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+    min-height: 583px;
+}
+
+.layout-wrap {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-shrink: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.layout-flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.layout-flex-row .left-side,
+.layout-flex-row .right-side {
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    max-height: 100%;
+    min-height: 463px;
+    background-color: transparent !important;
+    opacity: 1;
+    text-align: left;
+}
+
+.layout-flex-row .left-side {
+    flex: 0 0 53.33333333%;
+    max-width: 53.33333333%;
+    min-width: 53.33333333%;
+}
+
+.layout-flex-row .right-side {
+    flex: 0 0 46.66666667%;
+    max-width: 46.66666667%;
+    min-width: 46.66666667%;
+}
+
+.layout-flex-row .left-side .text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: flex-start;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+}
+
+.layout-flex-row .left-side .text-container>h6 {
+    text-align: center;
+}
+
+.intros {
+    min-height: 683px;
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.numbering {
+    width: 682px;
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin: 60px auto 0;
+    font-family: 'Playfair Display';
+    color: white;
+    text-align: center;
+}
+
+.border {
+    transform-origin: left center;
+    width: 795px;
+    margin: 50px auto 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-color: #E0D1B6;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.intro-header {
+    font-size: 3rem;
+    line-height: 1.6;
+    width: 795px;
+    font-weight: 700;
+    margin: 51px auto 0;
+    word-wrap: break-word;
+    position: relative;
+    text-align: center;
+}
+
+.intro-pics {
+    min-height: 500px;
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-pics .grid {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 41px;
+    min-height: 100%;
+}
+
+.column {
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.column img {
+    width: 100%;
+}
